@@ -27,13 +27,20 @@ button {
     width: 150px;
     font-weight: 900;
     font-family: Arial;
-    padding: 17px 20px 15px;
+    padding: 17px 8px 15px;
+}
+
+#btn-flight {
+    background-color: #4caf50;
+    margin: 0px 3px 0px 2px;
+    border-radius: 2px;
 }
 
 .btn {
+    cursor: pointer;
     display: inline-block;
     color: #fff;
-    padding: 17px 20px 15px;
+    padding: 17px 8px 15px;
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
@@ -60,6 +67,11 @@ body {
     margin: 0;
 } 
 
+#spaceship {
+    
+    background-color: #c7000c;
+}
+
 .logo-nome {
     margin: 5px 15px ;
     display: flex;
@@ -84,20 +96,80 @@ body {
     background-color: blueviolet;
 }
 
+#texto-2 {
+    width: 60%;
+}
+
+.flights {
+    background-image: url("../assets/17.png");
+    background-repeat: no-repeat;
+    background-position: right top; 
+    padding-left: 40px;
+    padding-top: 30px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    background-color: #c7000c;
+}
+
 .titulo {
     font-size: 60px;
-    font-weight: bold;
-
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-family: 'Montserrat', Arial, sans-serif;
     color: #c7000c;
+    text-align: center;
 }
+
+.subtitulo {
+    
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Montserrat', Arial, sans-serif;
+
+}
+
+.description2 {
+    
+    max-width: 350px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.flex-line {
+    margin: 20px 0px;
+    display: flex;
+    background-color: darkred;
+    padding: 3px 0px;
+    max-width: 80%;
+    border-radius: 2px;
+    
+}
+.my-input {
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 10px;
+    color: gray;
+    opacity: 0.3px;
+    border: none;
+    margin: 0px 3px
+}
+.origem, .destino {
+    width: 30%;
+}
+
+.ida, .volta {
+    width: 20%;
+}
+
+
 
 .btn-contato {
     margin: 5px;
 }
 .presentation {
     margin-top: 80px;
-    padding: 0px 30px;
+    padding: 0px 30px 15px;
     display: flex;
     background-color: aliceblue;
 }
