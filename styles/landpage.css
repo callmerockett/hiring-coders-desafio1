@@ -1,0 +1,120 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: solid thin ;
+    border-bottom-color: #dedcdc;
+
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.flex-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    border: none;   
+}
+#btn-ctt {
+    margin: 15px;
+    width: 150px;
+    font-weight: 900;
+    font-family: Arial;
+    padding: 17px 20px 15px;
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    padding: 17px 20px 15px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: .5px;
+    border-radius: 6px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    font-weight: 900;
+    font-family: Arial;
+    width: 20%;
+    fill: #FFF;
+    background-color: #c7000c;
+}
+
+.description {
+    font-family:'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+body {
+    font-family:'Roboto', sans-serif;
+    background-color: #dedcdc;
+    margin: 0;
+} 
+
+.logo-nome {
+    margin: 5px 15px ;
+    display: flex;
+}
+#logo {
+    width: 60px;
+    height: 70px;
+}
+#companhia {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px;
+    padding-top: 12px;
+
+}
+
+
+
+.products {
+    background-color: blueviolet;
+}
+
+.titulo {
+    font-size: 60px;
+    font-weight: bold;
+
+    font-family: 'Montserrat', sans-serif;
+    color: #c7000c;
+}
+
+.btn-contato {
+    margin: 5px;
+}
+.presentation {
+    margin-top: 80px;
+    padding: 0px 30px;
+    display: flex;
+    background-color: aliceblue;
+}
+
+.presentation-card {
+    width: 50%;
+}
+.presentation-img {
+    width: 50%;
+}
+
+
+.imagem-principal {
+    height: 550px;
+    width: 600px;
+}
+
+header {
+    background-color: aliceblue;
+}
