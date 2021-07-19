@@ -42,7 +42,7 @@ function resultFromSubmit(value) {
         msg.textContent = 'Sucesso! Muito obrigado :D';
         msg.style.color = 'green';
     } else if (value == 2) {
-        msg.textContent = 'Emails já cadastrado!';
+        msg.textContent = 'Email já cadastrado!';
         msg.style.color = 'red';
     } else {
         msg.textContent = 'Email inválido! Tente Novamente!';
