@@ -19,8 +19,22 @@ header {
     justify-content: center;
     align-items: center;
 }
+#newsletter {
+    width: 400px;
+    display: flex;
+}
+input[name="email"] {
+    width: 70%;
+    border: solid; 
+    border-color: #c7000c;
+    padding: 15px 10px 14px;
+}
 button {
     border: none;   
+}
+#btn-form {
+    background-color: #c7000c;
+    border-radius: 3px;
 }
 #btn-ctt {
     margin: 15px;
@@ -51,10 +65,10 @@ button {
     
     font-weight: 900;
     font-family: Arial;
-    width: 20%;
     fill: #FFF;
     background-color: #c7000c;
 }
+
 
 .description {
     font-family:'Roboto', sans-serif;
@@ -163,10 +177,6 @@ body {
 }
 
 
-
-.btn-contato {
-    margin: 5px;
-}
 .presentation {
     margin-top: 80px;
     padding: 0px 30px 15px;
@@ -176,6 +186,9 @@ body {
 
 .presentation-card {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .presentation-img {
     width: 50%;
@@ -202,4 +215,5 @@ footer {
     font-family: 'Montserrat', Arial, sans-serif;
     color: #fff;
     background-color: #c7000c;
+    padding: 5px 0px;
 }
